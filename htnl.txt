@@ -1,0 +1,21 @@
+Tag = a markup entity, a special word through which u can provide your content(text) a structure, meaning/semantics, formatting(bold, underline) 
+
+				Semantics Tag (1)
+
+h1-h6 = use for headings
+<a = use for linking links, sending mails, call someone, creating hyperlinks
+
+lists = unordered list(ul), ordered lists, descreption lists(hw)
+items in list = <li>
+table = <tr> (table row), <td> (table data)
+
+attribute/property  = a text defined inside tag called attribute (hw)
+
+				formatting tag (2)
+
+mainly we use strong, em, sup, sub, pre tags in formatting tags
+
+				Structure tag (3)
+
+all the data other than header, navigator and footer should inside in the main tag.
+header, nav, main, article, section, footer, aside (sidebar) diff b/w article and section

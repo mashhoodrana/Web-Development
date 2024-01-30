@@ -1,0 +1,16 @@
+{
+    "configurations": [
+        {
+            "type": "msedge",
+            "name": "http://127.0.0.1:3000/ex1.html",
+            "request": "launch",
+            "url": "http://127.0.0.1:3000/ex1.html"
+        },
+        {
+            "type": "msedge",
+            "name": "http://127.0.0.1:3000/href.html",
+            "request": "launch",
+            "url": "http://127.0.0.1:3000/href.html"
+        }
+    ]
+}
