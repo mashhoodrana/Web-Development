@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <!-- Flex(media query, justify, align-items, wrapping) -->
+    <div class="Parent">
+        <div class="mt-5">Header</div>
+        <div class="flex sm:flex-col md:flex-row justify-center">
+          <div class="bg-sky-600">Sidebar</div>
+          <div class="bg-fuchsia-700">Main Content</div>
+        </div>
+      </div>
+  
+      <!-- wrap -->
+      <div class="mt-7 flex flex-wrap bg-yellow-400">
+        <div class="w-[400px]">01</div>
+        <div class="w-[400px]">02</div>
+        <div class="w-[400px]">03</div>
+        <div class="w-[400px]">04</div>
+        <div class="w-[400px]">05</div>
+      </div>
+  
+      <div class="mt-7 flex flex-nowrap bg-yellow-400">
+        <div class="w-[400px] text-fuchsia-800">01</div>
+        <div class="w-[400px] text-fuchsia-800">02</div>
+        <div class="w-[400px] text-fuchsia-800">03</div>
+        <div class="w-[400px] text-fuchsia-800">04</div>
+        <div class="w-[400px] text-fuchsia-800">05</div>
+      </div>
+  
+      <div class="mt-8 flex items-center">
+        <div>Sidebar</div>
+        <div class="bg-fuchsia-800">
+          Main Content
+          <p>
+            Lorem ipsum dolor sit amet consectetur adipisicing elit. Sint sapiente
+            omnis facere consequuntur repellendus, atque tempore quae dolorem
+            aliquam eius quam. Non nesciunt blanditiis minima error debitis
+            commodi id cupiditate?
+          </p>
+        </div>
+        <div>another Sidebar</div>
+      </div>
+</body>
+</html>
